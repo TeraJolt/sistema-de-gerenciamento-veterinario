@@ -200,7 +200,7 @@
                     <section class="buttonsSection">
                         <p><input class="button buttonSubmit" type="submit" value="Cadastrar"></p>
                         <p><input class="button buttonReset" type="reset" value="Limpar"></p>
-                        <p><a href="./costumerConsult.php" class="button buttonCancel">Cancelar</a></p>
+                        <p><a href="./costumerConsult.php" class="button linkButton buttonCancel">Cancelar</a></p>
                     </section>
                 </form>
             </article>
