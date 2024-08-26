@@ -1,0 +1,189 @@
+body{
+    flex-direction: row;
+    background-color: #c0cFDF;
+}
+.mainSide{
+    position:absolute;
+    top: 0px;
+    left: 12%;
+    right: 0px;
+    padding: 50px;
+}
+.mainSide .mainArticle{
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFC;
+    border: 1px solid #679;
+    padding: 25px;
+    border-radius: 5px;
+}
+.searchResult{
+    margin-top: 10px;
+}
+.mainSide .mainArticle .mainHeader{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 28px;
+    padding: 25px 0px;
+    color:#346;
+}
+
+.formSection{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.formFieldset{
+    margin: 10px;
+    margin-bottom: 25px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: 1px solid #679;
+}
+.searchResult .formFieldset{
+    margin-bottom: auto;
+}
+.formSection section{
+    display: flex;
+    flex-direction: row;
+}
+.resultSection{
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.formLabel{
+    display: flex;
+    margin-right: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    align-self: center;
+}
+.formLabel p{
+    margin: 0px;
+    font-size: 18px;
+    color:#346;
+    padding: 0px;
+}
+.resultLabel{
+    font-weight: bold;
+    color: #346;
+    margin-left: 5px;
+}
+.resultReturn{
+    margin-right: 40px;
+}
+.formCamp{
+    margin-right: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #FFF;
+    border: solid #679;
+    border-width: 1px 1px 3px 1px;
+    border-radius: 5px;
+    padding: 4px 5px;
+}
+.searchSection{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.searchSection section{
+    display: flex;
+    flex-direction: row;
+}
+.searchBar{
+    font-size: 24px;
+    margin-right: 0px;
+}
+.buttonsSection{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 15px;
+}
+.buttonsTopSection{
+    flex-direction: row;
+    justify-content: space-between;
+}
+.buttonInternalSection{
+    margin-top: 0px;
+}
+.button{
+    margin-left: 15px;
+    padding: 5px;
+    width: 90px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.buttonSearch{
+    font-size: 24px;
+    padding: 5px;
+    width: 110px;
+    border-radius: 5px;
+    background-color: #BBF;
+    border: 1px solid #559;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #000;
+}
+.buttonSearch:hover{
+    background-color: #77F;
+    cursor: pointer;
+}
+.buttonAdd{
+    display: flex;
+    background-color: #FBF;
+    border: 1px solid #959;
+    margin: 10px;
+    text-decoration: none;
+    margin-top: 0px;
+}
+.buttonAdd:hover{
+    background-color: #F7F;
+}
+.buttonUpdate{
+    display: flex;
+    border-radius: 5px;
+    background-color: #BFF;
+    border: 1px solid #599;
+    padding: 5px 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+}
+.buttonUpdate:hover{
+    background-color: #7FF;
+    cursor: pointer;
+}
+.linkButton{
+    display: flex;
+    text-decoration: none;
+    color:#000;
+    justify-content: center;
+}
+.buttonCancel{
+    background-color: #Fbb;
+    border: 1px solid #955;
+}
+.buttonCancel:hover{
+    background-color: #F77;
+    cursor: pointer;
+}
+.buttonReset{
+    background-color: #FFb;
+    border: 1px solid #995;
+}
+.buttonReset:hover{
+    background-color: #FF7;
+    cursor: pointer;
+}
+.buttonSubmit{
+    background-color: #bfb;
+    border: 1px solid #595;
+}
+.buttonSubmit:hover{
+    background-color: #7F7;
+    cursor: pointer;
+}
