@@ -22,11 +22,18 @@
         <article class="mainArticle">
             <section class="buttonsSection buttonsTopSection">
                 <p><a href="./costumerConsult.php?searchThing=<?php echo $row['cpf'];?>" class="button linkButton buttonCancel">< Voltar</a></p>
+            </section>
+            <header class="mainHeader"><?php echo $row['name'];?></header>  
+        </article>
+        <article class="buttonsFold">
+            <p><a href="" class="page atualPage">Dados Pessoais</a></p>
+            <p><a href="./costumerAnimals.php?id=<?php echo $row['id']?>" class="page">Animais</a></p>
+        </article>
+        <article class="mainArticle">
+            <section class="buttonsSection">
                 <p><a href="./costumerUpdate.php?id=<?php echo $row['id'];?>" class="button linkButton buttonSubmit">Atualizar ></a></p>
             </section>
-            <header class="mainHeader"><?php echo $row['name'];?></header>
             <article class="mainForm">
-                
                 <fieldset class="formFieldset">
                     <legend class="formLabel"><p>Dados Pessoais </p></legend>
                     <section class="formSection">
